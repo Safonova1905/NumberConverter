@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:NumberConverter"
         mc:Ignorable="d"
         Title="Converter" Height="250" Width="700">
+    
     <Grid x:Name="LayoutRoot" Background="White">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
