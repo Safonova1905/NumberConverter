@@ -1,17 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace NumberConverter
 {
@@ -56,7 +44,7 @@ namespace NumberConverter
 
                     while (num > 0)     //поки число більше нуля, то
                     {
-                        if (mas1[i] <= num)     //перевіряємо всі арабські числа, якщо арабське число не менше за num, то
+                        if (mas1[i] <= num)     //перевіряємо всі арабські числа, якщо арабське число не більше за num, то
                         {
                             num = num - mas1[i];    //віднімаємо від num це арабське число і
                             res = res + mas2[i];    //записуємо у відповідь його римський еквівалент
